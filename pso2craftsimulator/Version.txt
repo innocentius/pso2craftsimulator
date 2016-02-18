@@ -1,2 +1,75 @@
 Using SWT as base project
 all addable abilities stored in XML files.
+
+Extra slot:
+0->1: *100%,*100%
+1->2: *85%, *90%
+2->3: *75%, *85%
+3->4: *60%, *70%
+4->5: *50%, *60%
+5->6: *45%, *55%
+6->7: *35%, *40%
+7->8: *30%, *30%
+Left value if 1 meta is used,
+Right value if 2~5 meta is used.
+
+INHERIT:
+For FUSION, see FUSION below.
+Name[level]: percentage of success(number of existed meta)
+Status up inherit:
+Name[1] :100%(1~5)
+Name[2-3]:60%(1),80%(2),100%(3~5)
+Name[4] :40%(1), 60%(2), 80%(3~5)
+Name[5] :20%(1), 40%(2), 60%(3~5)
+If extra slot, multiply by extra slot value
+
+Status abnormally inherit:
+Name[1] : 60%(1),80%(2),100%(3~5)
+Name[2] : 40%(1), 60%(2), 80%(3~5)
+Name[3] : 20%(1), 40%(2), 60%(3~5)
+Name[4] : 20%(1), 30%(2), 50%(3~5)
+Name[5] : 10%(1), 20%(2), 40%(3~5)
+If extra slot, multiply by extra slot value
+
+Ability all + inherit:
+Ability[1]: 100%(1~5)
+Ability[2]: 20%(1), 40%(2), 60%(3~5)
+Ability[3]: 10%(1), 30%(2), 50%(3~5)
+
+Resist all + inherit:
+All_Resist[1]: 30%(1), 50%(2), 70%(3~5)
+All_Resist[2]: 20%(1), 40%(2), 60%(3~5)
+All_Resist[3]: 10%(1), 30%(2), 50%(3~5)
+Returner inherit:
+Returner[1]: 0%(1), 80%(2), 100%(3~5)
+Returner[2]: 0%(1), 70%(2), 100%(3~5)
+Returner[3]: 0%(1), 50%(2), 100%(3~5)
+Returner[4]: 0%(1), 40%(2), 100%(3~5)
+Returner[5]: 0%(1), 10%(2), 100%(3~5)
+
+Soul(Normal) inherit: 0%(1), 50%(2),80%(3~5)
+Soul(Touou) inherit: 0%(1), 60%(2), 90%(3~5)
+Soul(Touou_fusion) inherit: 0%(1), 25%(2), 40%(3~5)
+Soul(with receptor) inherit: 100%(1)
+* Except Asutoraru
+Soul(Asutoraru) inherit: 10%(1~5)
+Mutation inherit:
+Mu[1]: 0%(1), 50%(2), 80%(3~5)
+Mu[2]: 0%(1), 50%(2), 80%(3~5)
+
+Soul Catalist inherit: 0%(1), 10%(2), 30%(3~5)
+
+Rabi Fever inherit: 100%(1~5)
+
+PP_Alpha inherit: 30%(1), 50%(2), 60%(3), 80%(4), 100%(5)
+
+Modulator inherit: 0%(1), 30%(2), 80%(3~5)
+
+Stigma inherit: 0%(1), 30%(2), 50%(3~5)
+
+Winkurumu inherit: 0%(1), 30%(2), 50%(3~5)
+
+Aruda & Furikuto: 0%(1~2), 80%(3~5)
+
+Ultimate Buster: 0%(1~4), 100%(5)
+* Only for *12 below.
