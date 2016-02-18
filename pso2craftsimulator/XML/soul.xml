@@ -1,0 +1,7 @@
+<Gunne Name="グンネ・ソール" Description="白領大型boss的追加魂。" Category="Soul" Tag="" Not_Stack="Soul" Health_Bonus="45" P_ATK_Bonus="15" 
+Fusion_Bonus="P_ATK, HP, P_DEF">
+	</Gunne>
+<Jigumoru Name="ジグモル・ソール" Description="黑領大型boss的追加魂。" Category="Soul" Tag="" Not_Stack="Soul" Photon_Bonus="4" P_ATK_Bonus="15" 
+Fusion_Bonus="P_ATK, PP, T_RES, POISON"></Jigumoru>
+<Vaulx Name="ヴォル・ソール" Description="火龍的追加魂。" Category="Soul" Tag="" Not_Stack="Soul" Health_Bonus="20" P_ATK_Bonus="30" 
+Fusion_Bonus="P_ATK, HP, P_DEF, FIRE"></Vaulx>
