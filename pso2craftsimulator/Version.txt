@@ -1,1 +1,2 @@
 Using SWT as base project
+all addable abilities stored in XML files.

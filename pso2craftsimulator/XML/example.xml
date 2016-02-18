@@ -1,0 +1,1 @@
+<ExampleAbility Name="Example" Description="This is an example ability" Category="Example" Tag="aaa, bbb" Not_Stack="Example2" Example_Attribute_addition="10" Example2_Attribute_addition="20" Special_Attribute="Nothing special. &lt;null&gt; for not printing anything" Fusion_bonus="P-ATK+20%, S-ATK+20%, HP+20%"></ExampleAbility>
